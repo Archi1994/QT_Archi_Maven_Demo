@@ -19,7 +19,7 @@ public class QT {
            driver.manage().window().maximize();
            
            WebElement email = driver.findElement(By.cssSelector("input[type='email']"));
-           email.sendKeys("archanataneja17@gmail.com");
+           email.sendKeys("archanataneja@gmail.com");
            
            driver.findElement(By.cssSelector("input[value='Log In']")).click();
            Thread.sleep(9000);        
