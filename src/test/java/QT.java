@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class QT {
 	
 	@Test
-	public static void main(String[]args) throws InterruptedException
+	public void fun()
     {
            //String key= "webdriver.chrome.driver"; 
            //String value=".\\exefiles\\chromedriver.exe";
@@ -24,7 +24,6 @@ public class QT {
            WebElement email = driver.findElement(By.cssSelector("input[type='email']"));
            email.sendKeys("archanataneja@gmail.com");
            
-           driver.findElement(By.cssSelector("input[value='Log In']")).click();
-           Thread.sleep(9000);        
+           driver.findElement(By.cssSelector("input[value='Log In']")).click();       
     }
 }
